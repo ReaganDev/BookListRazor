@@ -1,0 +1,36 @@
+[
+  {
+    "Id": "dde668cb-81ed-47b8-b481-4aac7ba64d28",
+    "Name" :  "Things Fall Apart",
+    "Author": "Finch Rosales",
+      "ISBN" :  "123-456"
+  },
+  {
+    "Id": "c7de4356-c738-4fbd-83cc-96e6b0d65793",
+    "Name": "Fuji House",
+    "Author": "Pruitt Calderon",
+    "ISBN": "223-466"
+
+  },
+  {
+    "Id": "e3721aa8-8b13-443e-80a7-e8279c044ad4",
+    "Name": "How Time Flies",
+    "Author": "Mosley Cruz",
+    "ISBN": "323-556"
+
+  },
+  {
+    "Id": "de0b5994-e9ef-4900-9404-1b65434ee104",
+    "Name": "Power Rangers",
+    "Author": "Wade Conrad",
+    "ISBN": "423-457"
+
+  },
+  {
+    "Id": "c419c8ae-20ad-4ccc-b2ca-50ca2e690ead",
+    "Name": "Creation",
+    "Author": "Nunez Cash",
+    "ISBN": "523-476"
+
+  }
+]
