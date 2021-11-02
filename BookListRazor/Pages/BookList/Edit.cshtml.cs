@@ -23,5 +23,22 @@ namespace BookListRazor.Pages.BookList
         {
             Book = await _context.Book.FirstOrDefaultAsync(x => x.Id == id);
         }
+
+        public async Task<IActionResult> OnPost()
+        {
+            if (ModelState.IsValid)
+            {
+                var book = await _context.Book.FirstOrDefaultAsync(x => x.Id == Book.Id);
+                book.Name = Book.Name;
+                book.Author = Book.Author;
+                book.ISBN = Book.ISBN;
+
+                await _context.SaveChangesAsync();
+                return RedirectToPage("Index");
+            }
+
+            return RedirectToPage();
+
+        }
     }
 }
